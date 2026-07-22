@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:sunnyli_thinking_orbs/thinking_orbs.dart';
+import 'package:thinking_orbs_flutter/thinking_orbs.dart';
 
 void main() {
   testWidgets('ThinkingOrb renders without errors', (WidgetTester tester) async {

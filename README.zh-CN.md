@@ -18,7 +18,7 @@
 
 ```yaml
 dependencies:
-  thinking_orbs:
+  thinking_orbs_flutter:
     path: ../thinking-orbs-flutter
 ```
 
@@ -26,7 +26,7 @@ dependencies:
 
 ```yaml
 dependencies:
-  thinking_orbs:
+  thinking_orbs_flutter:
     git:
       url: https://github.com/your-username/thinking-orbs-flutter.git
 ```
@@ -34,7 +34,7 @@ dependencies:
 ## 快速开始
 
 ```dart
-import 'package:thinking_orbs/thinking_orbs.dart';
+import 'package:thinking_orbs_flutter/thinking_orbs.dart';
 
 class Status extends StatelessWidget {
   @override
@@ -102,7 +102,7 @@ ThinkingOrb(
 如果你需要在 widget 之外自行绘制到 Canvas：
 
 ```dart
-import 'package:thinking_orbs/thinking_orbs.dart';
+import 'package:thinking_orbs_flutter/thinking_orbs.dart';
 
 final resolved = resolvePreset(OrbState.searching, OrbSize.large);
 final draw = modeDraws[resolved.mode]!;
