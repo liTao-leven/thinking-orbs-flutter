@@ -18,17 +18,9 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  thinking_orbs_flutter:
-    path: ../thinking-orbs-flutter
+  thinking_orbs_flutter: ^1.0.0
 ```
 
-Or via git:
-
-```yaml
-dependencies:
-  thinking_orbs_flutter:
-    git:
-      url: https://github.com/your-username/thinking-orbs-flutter.git
 ```
 
 ## Quick start

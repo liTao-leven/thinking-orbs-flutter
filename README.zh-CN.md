@@ -18,17 +18,14 @@
 
 ```yaml
 dependencies:
-  thinking_orbs_flutter:
-    path: ../thinking-orbs-flutter
+  thinking_orbs_flutter: ^1.0.0
 ```
 
 或通过 git 安装：
 
 ```yaml
 dependencies:
-  thinking_orbs_flutter:
-    git:
-      url: https://github.com/your-username/thinking-orbs-flutter.git
+  thinking_orbs_flutter: ^1.0.0
 ```
 
 ## 快速开始
