@@ -1,3 +1,7 @@
+## 1.0.3
+
+- Add pub.dev automated publishing workflow (GitHub Actions OIDC)
+
 ## 1.0.2
 
 - Add GitHub Actions workflow to deploy web demo to GitHub Pages
