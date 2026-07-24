@@ -9,6 +9,12 @@ import 'engine/registry.dart';
 import 'presets.dart';
 import 'types.dart';
 
+/// The [CustomPainter] that draws a single ThinkingOrb frame.
+///
+/// Reads the accumulated animation time from a [ValueNotifier] and delegates
+/// to the engine's mode-specific draw function. Used internally by
+/// [ThinkingOrb]; exposed for advanced composition where you drive your own
+/// [CustomPaint] with a pre-resolved [Resolved] preset.
 class OrbPainter extends CustomPainter {
   OrbPainter({
     required Listenable repaint,

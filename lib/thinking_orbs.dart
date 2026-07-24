@@ -3,7 +3,7 @@
 ///
 /// Quick start:
 /// ```dart
-/// import 'package:thinking_orbs/thinking_orbs.dart';
+/// import 'package:thinking_orbs_flutter/thinking_orbs.dart';
 ///
 /// ThinkingOrb(state: OrbState.searching, size: OrbSize.large)
 /// ```

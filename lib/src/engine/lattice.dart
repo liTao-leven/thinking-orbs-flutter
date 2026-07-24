@@ -38,12 +38,16 @@ _SolveCycle solveCycle(double time, int count, double slotDur, double rest) {
     final cl = math.min(1, p / 0.7);
     final ep = 1 - math.pow(1 - cl, 3).toDouble(); // machine ease-out
     if (slot < count) {
-      for (var i = 0; i < slot; i++) amount[i] = 1;
+      for (var i = 0; i < slot; i++) {
+        amount[i] = 1;
+      }
       amount[slot] = ep;
       active = slot;
     } else {
       final u = 2 * count - 1 - slot;
-      for (var i = 0; i < u; i++) amount[i] = 1;
+      for (var i = 0; i < u; i++) {
+        amount[i] = 1;
+      }
       amount[u] = 1 - ep;
       active = u;
     }

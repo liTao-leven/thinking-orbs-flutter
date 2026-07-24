@@ -1,3 +1,11 @@
+## 1.0.1
+
+- Fix for-loop lint warnings in `lattice.dart` (static analysis 50/50)
+- Add dartdoc to `OrbPainter`
+- Add `example/` app (documentation 20/20)
+- Fix package name in library doc comment
+- Add `AGENTS.md` for contributor/onboarding reference
+
 ## 1.0.0
 
 - Initial release of thinking_orbs Flutter package

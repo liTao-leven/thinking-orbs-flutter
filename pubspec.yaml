@@ -1,6 +1,6 @@
 name: thinking_orbs_flutter
 description: Dotted thought-orb loading indicators for AI & agent UIs. Six hand-tuned animated states, two sizes, auto dark/light theme.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/liTao-leven/thinking-orbs-flutter
 issue_tracker: https://github.com/liTao-leven/thinking-orbs-flutter/issues
 topics: [flutter, animation, loading, indicator, ai-ui]
