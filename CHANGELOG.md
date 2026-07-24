@@ -1,3 +1,10 @@
+## 1.0.2
+
+- Add GitHub Actions workflow to deploy web demo to GitHub Pages
+- Update web/index.html title and meta description
+- Update web/manifest.json with app name and theme colors
+- Update README live demo link to GitHub Pages URL
+
 ## 1.0.1
 
 - Fix for-loop lint warnings in `lattice.dart` (static analysis 50/50)

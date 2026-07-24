@@ -4,7 +4,7 @@ Dotted thought-orb loading indicators for AI & agent UIs. Six hand-tuned animate
 
 A Flutter port of [thinking-orbs](https://github.com/Jakubantalik/thinking-orbs) (React + Canvas 2D), faithful to the original engine's geometry, depth shading, and per-state tuning.
 
-[✨ Live demo (original JS version)](https://orbs.jakubantalik.com) — the Flutter animations are pixel-identical.
+[✨ Live demo](https://litao-leven.github.io/thinking-orbs-flutter/) - six states, two sizes, running in your browser. ([Original JS version](https://orbs.jakubantalik.com))
 
 English | [简体中文](README.zh-CN.md)
 

@@ -4,7 +4,7 @@
 
 本项目是 [thinking-orbs](https://github.com/Jakubantalik/thinking-orbs)（React + Canvas 2D 版）的 Flutter 移植，忠实还原了原版引擎的几何算法、深度着色和每个状态的调参细节。
 
-[✨ 在线演示（原版 JS）](https://orbs.jakubantalik.com) — Flutter 移植版动画像素级一致。
+[✨ 在线演示](https://litao-leven.github.io/thinking-orbs-flutter/) - 六种状态、两种尺寸，浏览器中直接体验。（[原版 JS](https://orbs.jakubantalik.com)）
 
 <p align="center">
   <img src="assets/demo/demo-large-dark.gif" alt="thinking-orbs Flutter 演示 — 六种 64px 状态" width="500">
